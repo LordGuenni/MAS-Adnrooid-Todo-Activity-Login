@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataAccess</string>
+
+    <string name="preferences_name">Preferences</string>
+    <string name="properties_name">Properties</string>
+    <string name="xmlfile_name">XML File</string>
+    <string name="sqlite_name">SQLite</string>
+    <string name="remotebackend_name">Remote Backend</string>
+    
+    <!--  the labels used for the details view -->
+    <string name="itemdetails_description">description</string>
+    <string name="itemdetails_name">name</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="add_item">Add item</string>
+
+    <!-- the main menu items -->
+    <string-array name="main_menu">
+        <item>Preferences</item>
+        <item>Properties File</item>
+        <!--  <item>XML File</item> -->
+        <!--<item>SQLite DB (deprecated)</item>
+        <item>SQLite DB Cursor (deprecated)</item>
+        <item>Remote Backend</item>-->
+        <item>Resources</item>
+        <item>Room API</item>
+    </string-array>
+
+    <!--  the activities that will be called on menu item selection -->    
+    <string-array name="main_menu_activities">
+        <item>ItemDetailsActivity</item>
+        <item>ItemDetailsActivity</item>
+        <!--  <item>ItemListActivity</item> -->
+        <!--<item>ItemListActivity</item>
+        <item>ItemListActivity</item>
+        <item>ItemListActivity</item>-->
+        <item>ItemListActivity</item>
+        <item>ItemListActivity</item>
+    </string-array>
+    
+    <!--  the accessors that will be used on menu item selection -->    
+    <string-array name="main_menu_accessors">
+        <item>preferences.PreferencesDataItemAccessor</item>
+        <item>properties.PropertiesDataItemAccessor</item>
+        <!-- <item>XMLFileDataItemListAccessor</item>  -->
+        <!--<item>sqlite.SQLiteDataItemListAccessor</item>
+        <item>sqlite.CursorAdapterDataItemListAccessor</item>
+        <item>RemoteBackendDataItemListAccessor</item>-->
+        <item>resources.ResourcesDataItemListAccessor</item>
+        <item>room.RoomDataItemListAccessor</item>
+
+    </string-array>
+                
+    <!--  the item list as resources -->    
+    <string-array name="item_list">
+        <item>Item 1</item>        
+        <item>Item 2</item>        
+        <item>Item 3</item>        
+    </string-array>
+    <string name="password_hint">Enter your password</string>
+    <string name="wrong_password">Falsches Passwort</string>
+
+</resources>

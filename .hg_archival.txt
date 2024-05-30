@@ -1,0 +1,6 @@
+repo: bc49d3413646c1ac6508e93fde444ba86b679cd9
+node: 5dfeb11df30417d2437e92c6b18cb5a8940577c2
+branch: 410-todo-datalocal-room
+latesttag: null
+latesttagdistance: 23
+changessincelatesttag: 37

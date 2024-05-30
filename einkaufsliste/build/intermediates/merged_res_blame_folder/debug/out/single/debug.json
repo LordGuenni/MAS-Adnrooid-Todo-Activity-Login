@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/drawable_baseline_add_circle_outline_24.xml.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/drawable/baseline_add_circle_outline_24.xml"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/layout_itemview.xml.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/layout/itemview.xml"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/raw_dataitem.txt.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/raw/dataitem.txt"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/layout_itemlistview.xml.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/layout/itemlistview.xml"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/layout_listview.xml.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/layout/listview.xml"
+    },
+    {
+        "merged": "de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/layout_login.xml.flat",
+        "source": "de.thb.fbi.msr.maus.einkaufsliste-main-34:/layout/login.xml"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/layout_item_in_listview.xml.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/layout/item_in_listview.xml"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/drawable-mdpi_star_yellow.png.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/drawable-mdpi/star_yellow.png"
+    },
+    {
+        "merged": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-merged_res-32:/drawable-mdpi_star_grey.png.flat",
+        "source": "/Users/florianstamer/.gradle/daemon/8.2/de.thb.fbi.msr.maus.einkaufsliste-main-34:/drawable-mdpi/star_grey.png"
+    }
+]

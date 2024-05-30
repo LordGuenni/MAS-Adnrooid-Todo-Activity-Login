@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.thb.fbi.msr.maus.einkaufsliste"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="29"
+        android:targetSdkVersion="34" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="de.thb.fbi.msr.maus.einkaufsliste.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="de.thb.fbi.msr.maus.einkaufsliste.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:name="de.thb.fbi.msr.maus.einkaufsliste.DataAccessApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.thb.fbi.msr.maus.einkaufsliste.DataAccessActivity"
+            android:exported="true"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.thb.fbi.msr.maus.einkaufsliste.ItemListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.thb.fbi.msr.maus.einkaufsliste.ItemDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="de.thb.fbi.msr.maus.einkaufsliste.LoginWidgetActivity"
+            android:exported="true"
+            android:label="Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="de.thb.fbi.msr.maus.einkaufsliste.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

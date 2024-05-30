@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.thb.fbi.msr.maus.einkaufsliste"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:3:5-67
+11-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /Users/florianstamer/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="de.thb.fbi.msr.maus.einkaufsliste.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /Users/florianstamer/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /Users/florianstamer/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="de.thb.fbi.msr.maus.einkaufsliste.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /Users/florianstamer/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /Users/florianstamer/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:5:5-36:19
+20        android:name="de.thb.fbi.msr.maus.einkaufsliste.DataAccessApplication"
+20-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:10:13-50
+21        android:allowBackup="false"
+21-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:9:13-40
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /Users/florianstamer/.gradle/caches/transforms-3/a309491863f1cad1388d82071cb60f8c/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@drawable/ic_launcher"
+25-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:6:13-49
+26        android:label="@string/app_name"
+26-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:7:13-45
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:8:13-44
+29        <activity
+29-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:12:9-17:20
+30            android:name="de.thb.fbi.msr.maus.einkaufsliste.DataAccessActivity"
+30-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:14:17-51
+31            android:exported="true"
+31-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:15:17-40
+32            android:label="@string/app_name" >
+32-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:13:17-49
+33        </activity>
+34        <activity
+34-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:18:9-21:20
+35            android:name="de.thb.fbi.msr.maus.einkaufsliste.ItemListActivity"
+35-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:20:17-49
+36            android:label="@string/app_name" >
+36-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:19:17-49
+37        </activity>
+38        <activity
+38-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:22:9-25:20
+39            android:name="de.thb.fbi.msr.maus.einkaufsliste.ItemDetailsActivity"
+39-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:24:17-52
+40            android:label="@string/app_name" >
+40-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:23:17-49
+41        </activity>
+42        <activity
+42-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:26:9-34:20
+43            android:name="de.thb.fbi.msr.maus.einkaufsliste.LoginWidgetActivity"
+43-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:28:17-52
+44            android:exported="true"
+44-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:28:53-76
+45            android:label="Login" >
+45-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:27:17-38
+46            <intent-filter>
+46-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:29:13-33:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:30:17-69
+47-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:30:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:32:17-77
+49-->/Volumes/Volume/Uni/Programmieren/Semester-IV/Mobile Systems/maas-24s-data-local_5dfeb11df304/einkaufsliste/src/main/AndroidManifest.xml:32:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[androidx.room:room-runtime:2.5.0] /Users/florianstamer/.gradle/caches/transforms-3/3df4895d45dc8fdfd442a4fbc6f58178/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+54            android:name="androidx.room.MultiInstanceInvalidationService"
+54-->[androidx.room:room-runtime:2.5.0] /Users/florianstamer/.gradle/caches/transforms-3/3df4895d45dc8fdfd442a4fbc6f58178/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+55            android:directBootAware="true"
+55-->[androidx.room:room-runtime:2.5.0] /Users/florianstamer/.gradle/caches/transforms-3/3df4895d45dc8fdfd442a4fbc6f58178/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+56            android:exported="false" />
+56-->[androidx.room:room-runtime:2.5.0] /Users/florianstamer/.gradle/caches/transforms-3/3df4895d45dc8fdfd442a4fbc6f58178/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+60            android:authorities="de.thb.fbi.msr.maus.einkaufsliste.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/florianstamer/.gradle/caches/transforms-3/6db5aa862a49de8667f2a7b9b0bf2022/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/florianstamer/.gradle/caches/transforms-3/b7bd10e3360a468a9b79e7dca2ad5240/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/florianstamer/.gradle/caches/transforms-3/b7bd10e3360a468a9b79e7dca2ad5240/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/florianstamer/.gradle/caches/transforms-3/b7bd10e3360a468a9b79e7dca2ad5240/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>

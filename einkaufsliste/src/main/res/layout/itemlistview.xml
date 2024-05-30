@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!-- <include layout="@layout/listview"/> -->
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        >
+        </ListView>
+
+        <!-- a button whose activation depends on the filling of other elements -->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/newitemButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                app:icon="@drawable/baseline_add_circle_outline_24"
+                app:srcCompat="@drawable/baseline_add_circle_outline_24"
+                android:contentDescription="@string/add_item"/>
+
+    </FrameLayout>
+</LinearLayout>

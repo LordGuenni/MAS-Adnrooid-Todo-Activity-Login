@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_list">
+        <item>Item 1</item>        
+        <item>Item 2</item>        
+        <item>Item 3</item>        
+    </string-array>
+    <string-array name="main_menu">
+        <item>Preferences</item>
+        <item>Properties File</item>
+        
+        
+        <item>Resources</item>
+        <item>Room API</item>
+    </string-array>
+    <string-array name="main_menu_accessors">
+        <item>preferences.PreferencesDataItemAccessor</item>
+        <item>properties.PropertiesDataItemAccessor</item>
+        
+        
+        <item>resources.ResourcesDataItemListAccessor</item>
+        <item>room.RoomDataItemListAccessor</item>
+
+    </string-array>
+    <string-array name="main_menu_activities">
+        <item>ItemDetailsActivity</item>
+        <item>ItemDetailsActivity</item>
+        
+        
+        <item>ItemListActivity</item>
+        <item>ItemListActivity</item>
+    </string-array>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <string name="add_item">Add item</string>
+    <string name="app_name">DataAccess</string>
+    <string name="delete">Delete</string>
+    <string name="itemdetails_description">description</string>
+    <string name="itemdetails_name">name</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="preferences_name">Preferences</string>
+    <string name="properties_name">Properties</string>
+    <string name="remotebackend_name">Remote Backend</string>
+    <string name="save">Save</string>
+    <string name="sqlite_name">SQLite</string>
+    <string name="wrong_password">Falsches Passwort</string>
+    <string name="xmlfile_name">XML File</string>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        
+        <item name="colorAccent">@color/colorAccent</item>
+        
+    </style>
+</resources>

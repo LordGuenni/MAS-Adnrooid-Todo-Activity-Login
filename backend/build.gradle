@@ -1,0 +1,8 @@
+apply plugin: 'java'
+apply plugin: 'war'
+group = 'de.thb.fbi.msr.maus.einkaufsliste'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+dependencies {
+}
